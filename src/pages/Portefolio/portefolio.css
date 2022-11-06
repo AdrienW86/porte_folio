@@ -1,0 +1,13 @@
+.exp {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    margin: 20px;
+    padding: 16px;
+    margin: 0;
+}
+
+.exp-card {
+    background: white;
+    width: 300px;
+}

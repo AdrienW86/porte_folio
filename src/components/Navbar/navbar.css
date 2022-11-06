@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    height: 76px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.name {
+    margin: 10px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    height: 36px;
+    width: 36px;
+    color: white;
+    background: rgb(48, 48, 48);
+    border-radius: 36px;
+    padding: 8px;
+    font-size: 1.3em
+}
+
+.logo-text {
+    position: relative;
+    bottom: 16px;
+}
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.link, .activeLink {
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    top: 16px;
+    font-weight: bold;
+}
+
+.link:hover, .activeLink:hover {
+    border-bottom: 2px solid red;
+}
+
+.activeLink {
+    color: red;
+}
+
+.link {
+    color: rgb(48, 48, 48);  
+}
