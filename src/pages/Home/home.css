@@ -1,0 +1,72 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.avatar {
+   border-radius: 80px;
+   position: absolute;
+   right: 40px;
+}
+
+.intro {
+    padding: 32px;
+    color: white;
+    text-align: center;
+    background: rgb(48, 48, 48);
+}
+
+.h1-description {
+   position: relative;
+   top: 16px; 
+   text-align: right;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+    padding: 32px;
+    margin: 32px;
+    border-radius: 16px;
+}
+
+.skills-icons {
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+
+.description {
+   display: flex;
+   flex-direction: column;
+   font-weight: bold;
+   color: rgb(48, 48, 48);
+}
+
+.work {
+    display: flex;
+}
+
+.date {
+    width: 50%;
+    text-align: left;
+}
+
+.work-description {
+    width: 50%;
+    margin-left: 16px;
+    text-align: right;
+}
+
+.h2-home {
+    color: red;
+    border-top: 1px solid rgb(48, 48, 48, 0.5);
+    border-bottom: 1px solid rgb(48, 48, 48, 0.5);
+    width: 200px;
+    text-align: center;
+    margin: 32px auto;
+    padding: 20px;
+}

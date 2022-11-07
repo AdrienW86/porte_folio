@@ -34,7 +34,7 @@ const Portefolio = () => {
             <div className='exp-card'>
               <h3> Développeur front-end </h3>
                 <artcile>
-                  Spécialisation du métier de développeur front-end 
+                  Formation au métier de développeur front-end 
                 </artcile>
             </div>
             <div className='level'>

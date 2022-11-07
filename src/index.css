@@ -15,12 +15,19 @@ code {
 h1 {
   margin: 0;
   padding: 20px;
+  color: rgb(48, 48, 48);
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 
 .h1-description {
   text-align: right;
   padding-right: 16px;
-  color: rgb(102, 102, 102);
+  font-weight: bold;
+  color: rgb(48, 48, 48);
   position: relative;
   bottom: 40px;
 }
